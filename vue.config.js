@@ -22,12 +22,12 @@ module.exports = {
   },
   productionSourceMap: false,
   css: {
-    sourceMap: true,
     loaderOptions: {
-      scss: {
-        data: `
-          @import "~@/assets/scss/app.scss";
-        `
+      sass: {
+        implementation: require('node-sass'),
+        additionalData: `
+            @import "@/assets/scss/app.scss";
+            `
       }
     }
   }
