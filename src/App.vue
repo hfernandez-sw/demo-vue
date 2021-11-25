@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about"> About</router-link>
-      <router-link v-if="isLogin" to="/login"> Login</router-link>
-      <router-link v-else to="/signout"> Signout</router-link>
+      <router-link :to="{ name: 'Home' }">Home</router-link> |
+      <router-link :to="{ name: 'About' }"> About</router-link>
+      <router-link v-if="isLogin" :to="{ name: 'Login' }"> Login</router-link>
+      <router-link v-else :to="{ name: 'SignOut' }"> Signout</router-link>
     </div>
     <router-view />
   </div>

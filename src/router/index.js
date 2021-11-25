@@ -21,7 +21,7 @@ export const routes = [
   },
   {
     path: '/signout',
-    name: 'Signout',
+    name: 'SignOut',
     component: Signout,
     meta: { requiresAuth: false }
   },
