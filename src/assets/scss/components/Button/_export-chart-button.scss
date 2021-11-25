@@ -1,0 +1,14 @@
+.dx-export-menu-button rect{
+    stroke: $color-main;
+    fill: $color-grey-100;
+}
+.dx-export-menu-button:hover rect{
+    fill: $color-grey-300;
+}
+.dx-export-menu-button path{
+    fill: $color-main;
+}
+.dx-export-menu-list-item text{
+    fill: #707070!important;
+    font-family: 'Lato'!important;
+}

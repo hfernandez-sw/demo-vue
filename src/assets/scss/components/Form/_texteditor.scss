@@ -1,0 +1,122 @@
+.form-text {
+  width: 263px;
+  margin-bottom: 0.25rem;
+  min-height: 18px;
+  font-family: 'Lato';
+  font-size: 0.75rem;
+  color: $color-grey-700;
+}
+
+.dx-widget input {
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.checkbox-text {
+  width: 100px;
+  margin-bottom: 0.25rem;
+  min-height: 18px;
+  font-family: 'Lato';
+  font-size: 0.75rem;
+  color: $color-grey-700;
+}
+
+//Text editor with icon
+.input-w-icon input {
+  text-indent: 4px;
+  height: 40px;
+  font-family: 'Lato';
+}
+
+.input-w-icon .dx-placeholder::before{
+  text-indent: 4px;
+}
+
+.input-w-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-w-icon .dx-texteditor-container{
+  align-items: center;
+  padding-left: 12px;
+}
+
+.input-w-icon .dx-invalid.dx-texteditor.dx-editor-filled.dx-show-invalid-badge .dx-texteditor-input-container::after {
+  top: 25%!important
+}
+
+
+.dx-texteditor.dx-editor-filled,
+.filters .dx-texteditor.dx-editor-outlined,
+.dx-popup-normal .dx-texteditor.dx-editor-outlined,
+.text-editor {
+  border: 1px solid $color-grey-200;
+  background-color: $color-grey-100;
+  border-radius: 12px;
+}
+
+.dx-texteditor.dx-state-focused.dx-editor-filled,
+.form-centered .dx-texteditor.dx-state-focused.dx-editor-filled {
+  border-color: rgba($color-main, 0.6);
+}
+
+.form-centered .dx-texteditor.dx-editor-filled,
+.form-centered .dx-texteditor.dx-editor-outlined {
+  border: 1px solid $color-grey-200;
+  background-color: $color-white;
+  border-radius: 12px;
+}
+
+.form-centered .dx-dropdowneditor-input-wrapper {
+  width: 100%;
+}
+
+.form-buttons .dx-layout-manager .dx-field-item:not(.dx-first-row) {
+  padding-top: 0;
+}
+
+.form-buttons .dx-layout-manager .dx-field-item:not(.dx-first-col) {
+  margin-left: 0;
+}
+
+.form-centered.password .dx-texteditor.dx-editor-filled .dx-texteditor-input-container,
+.form-centered.passcode .dx-texteditor.dx-editor-filled .dx-texteditor-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bhcd-icon-passcode,
+.form-centered.password {
+  .dx-texteditor.dx-editor-filled .dx-texteditor-input-container {
+    > .bhcd-icon-passcode,
+    > .bhcd-icon-eye,
+    > .bhcd-icon-eye-off {
+      cursor: pointer;
+      font-size: 1.125rem;
+      color: $color-grey-600;
+      margin-right: 0.5rem;
+    }
+  }
+}
+.form-centered.password
+  .dx-invalid.dx-texteditor.dx-editor-filled
+  .dx-texteditor-input-container::after {
+  content: '\e902';
+  position: absolute;
+  top: 18%;
+  right: 8px;
+  margin-top: 0;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.system-generated.form-centered .dx-texteditor.dx-editor-filled {
+  border: 1px solid $color-grey-400;
+  background-color: $color-white-200;
+}

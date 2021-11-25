@@ -1,0 +1,17 @@
+.btn-navbar-grey{
+    background-color: $color-grey-200;
+    color: $color-grey-700;
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: none;
+    font-family: $font-family-sans-serif;
+    font-weight: 500;
+}
+
+.btn-navbar-grey:hover{
+    background-color: $color-grey-100;
+}
+
+.btn-navbar-grey img.icon-navbar {
+    width: 17px;
+}

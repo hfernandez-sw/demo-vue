@@ -1,0 +1,132 @@
+.dx-form-group-caption {
+  border-bottom: none;
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: $color-grey-700;
+  text-transform: uppercase;
+}
+
+.form-caption .dx-form-group-caption {
+  font-size: 1.125rem;
+  text-transform: capitalize;
+}
+
+.form-caption.geofence-form .dx-form-group-with-caption > .dx-form-group-content {
+  padding-top: 0;
+}
+
+.dx-form-group-with-caption > .dx-form-group-content {
+  border-top: none;
+}
+
+.dx-layout-manager .dx-field-item:not(.dx-first-col) {
+  margin-left: 1.5rem;
+}
+
+.form-label .dx-field-item-label {
+  width: 180px;
+  margin-right: 22px;
+}
+
+.form-label.form-centered .dx-field-item-label {
+  width: fit-content;
+}
+
+.form-label .dx-field-item-label-text {
+  font-family: 'Lato';
+  font-size: 0.75rem;
+  color: $color-grey-800;
+}
+
+.hint .dx-field-item-label-content,
+.hint-latest,
+.form-label.with-tooltip .dx-field-item-label-content,
+.tooltip-target:after{
+  font: 1.25rem/1.25rem 'Bhcd-icons';
+}
+
+.hint .dx-field-item-label-content:after,
+.hint-latest:after,
+.tooltip-target:after {
+  content: '\e9b5';
+  font-style: normal;
+  color: $color-grey-600;
+  border-radius: 2rem;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.form-label.with-tooltip .dx-field-item-label-content:after {
+  content: '\e9b5';
+  font-style: normal;
+  color: $color-grey-600;
+  border-radius: 2rem;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+// Scrollbar //
+.dx-scrollbar-hoverable .dx-scrollable-scroll.dx-state-invisible .dx-scrollable-scroll-content {
+  width: 4px;
+  border-radius: 4px;
+  background-color: $color-grey-400;
+}
+
+// Layout Manager
+
+.dx-layout-manager .dx-field-item:not(.dx-first-row) {
+  padding-top: 1rem;
+}
+
+.dx-layout-manager .dx-button-text {
+  margin-bottom: 1px;
+}
+
+.dx-layout-manager .dx-button-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.dx-textarea.dx-invalid textarea {
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+// Static fields
+
+.dx-field {
+  .dx-field-label {
+    display: block;
+    color: $color-grey-600;
+    font-size: 13px;
+    float: none;
+    width: initial;
+    font-weight: normal;
+  }
+  .dx-field-value-static {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    min-height: 30px;
+  }
+}
+.dx-field-value-static,
+.dx-field-value:not(.dx-switch):not(.dx-checkbox):not(.dx-button) {
+  width: initial;
+}
+.dx-field-value,
+.dx-field-value-static {
+  float: none;
+}

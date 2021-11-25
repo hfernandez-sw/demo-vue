@@ -1,0 +1,40 @@
+.textButton {
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: 'Lato';
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.textButton:focus {
+  border: 0;
+  outline: none;
+}
+
+.textButton-normal--dark {
+  color: $color-grey-700;
+}
+
+.textButton-normal--light {
+  color: $color-grey-400;
+}
+
+.textButton-default--dark {
+  color: $color-grey-800;
+}
+
+.textButton-default--light {
+  color: $color-grey-100;
+}
+
+.textButton-info {
+  color: $color-info-700;
+}
+
+.textButton-warning {
+  color: $color-black;
+}
+.textButton-danger {
+  color: $color-white-100;
+}

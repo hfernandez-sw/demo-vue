@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@factory": ["./tests/unit/factory/index.js"],
+      "@/components/*": ["./src/components/*"],
+      "@/views/*": ["./src/views/*"],
+      "@/store/*": ["./src/store/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

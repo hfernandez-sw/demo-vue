@@ -1,0 +1,63 @@
+.dx-invalid.dx-texteditor.dx-editor-filled {
+  margin-bottom: 16px;
+  border-color: rgba($color: $color-danger-700, $alpha: 0.4);
+}
+
+.dx-invalid.dx-texteditor {
+  border-color: rgba($color: $color-danger-700, $alpha: 0.4);
+}
+
+.dx-texteditor.dx-invalid .dx-texteditor-input-container::after {
+  right: 8px;
+}
+
+.dx-invalid-message > .dx-overlay-content {
+  background-color: transparent;
+  color: $color-danger-700;
+  font-family: 'Lato';
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 4px;
+  transform: none !important;
+  top: initial !important;
+  bottom: -23px !important;
+}
+.dx-invalid-message.dx-overlay-wrapper {
+  visibility: visible !important;
+}
+
+.dx-invalid.dx-texteditor.dx-editor-filled .dx-texteditor-input-container {
+  font-family: 'Bhcd-icons';
+  font-size: 1.125rem;
+}
+
+.dx-invalid.dx-texteditor.dx-editor-filled.dx-show-invalid-badge
+  .dx-texteditor-input-container::after {
+  content: '\e902';
+  top: 18%;
+  font-size: 16px;
+  color: $color-danger-700;
+  background-color: transparent;
+  line-height: 20px;
+  margin-top: 0;
+}
+
+.dx-invalid.dx-texteditor.dx-editor-filled.dx-state-focused {
+  border-color: $color-danger-700;
+}
+
+.form-centered .dx-invalid.dx-texteditor.dx-editor-filled.dx-state-focused {
+  border-color: $color-danger-700;
+  background-color: $color-white;
+}
+
+.dx-field-item-required-mark {
+  color: $color-danger-500;
+  font-size: 0.75rem;
+}
+.dx-selectbox.dx-invalid.dx-state-focused .dx-invalid-message
+> .dx-overlay-content {
+    transform: none!important;
+    top: initial!important;
+    bottom: -23px!important;
+}

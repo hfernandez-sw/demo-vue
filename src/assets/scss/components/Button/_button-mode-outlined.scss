@@ -1,0 +1,23 @@
+.dx-button-mode-outlined.dx-button-default{
+    background-color: transparent;
+    border-color: $color-main;
+    border-radius: 12px;
+    color: $color-main;
+    transition: all 0.2s;
+}
+
+.dx-button-mode-outlined.dx-button-default.dx-state-hover{
+    border-color: $color-main-dark;
+    color: $color-main-dark;
+    transition: all 0.2s;
+}
+
+.dx-button-mode-outlined.dx-button-default .dx-icon{
+    color: $color-main;
+    transition: all 0.2s;
+}
+
+.dx-button-mode-outlined.dx-button-default.dx-state-hover .dx-icon {
+    color: $color-main-dark;
+    transition: all 0.2s;
+}

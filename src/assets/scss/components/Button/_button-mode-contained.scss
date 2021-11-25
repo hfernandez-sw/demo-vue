@@ -1,0 +1,48 @@
+.dx-button-default.dx-button-mode-contained {
+  background-color: $color-main;
+  border-color: $color-main;
+  border-radius: 12px;
+  color: $color-white;
+  transition: all 0.2s;
+}
+.dx-button-default.dx-button-mode-contained .dx-icon {
+  color: $color-white;
+}
+
+.dx-button-default.dx-button-mode-contained.dx-state-hover {
+  background-color: $color-main-dark;
+  transition: all 0.2s;
+}
+
+.dx-button-normal.dx-button-mode-contained {
+  background-color: $color-grey-300;
+  border-color: $color-grey-300;
+  border-radius: 12px;
+  color: $color-grey-800;
+  transition: color 200ms, border-color 200ms, background-color 200ms,;
+}
+
+.dx-button-normal.dx-button-mode-contained.dx-state-hover, .dx-button-normal.dx-button-mode-contained.dx-state-focused {
+  background-color: $color-grey-200;
+  border-color: $color-grey-500;
+}
+
+.dx-button-normal.dx-button-mode-contained .dx-icon {
+  color: $color-grey-800;
+}
+
+.dx-button-has-text .dx-button-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  min-height: 36px;
+  padding: 9px 18px;
+}
+.dx-button-has-text .dx-button-text {
+  line-height: unset;
+}
+.dx-button-has-text .dx-icon {
+  margin-right: 0;
+  margin-left: 9px;
+}
