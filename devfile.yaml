@@ -9,7 +9,7 @@ metadata:
 components:
   - name: aws-runtime
     container:
-      image: public.ecr.aws/aws-mde/universal-image:2.0
+      image: public.ecr.aws/aws-mde/universal-image:latest
       mountSources: true
       volumeMounts:
         - name: docker-store
